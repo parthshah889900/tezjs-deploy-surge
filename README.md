@@ -1,16 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# Deploy to Surge
+In this guide, you will learn how to deploy your TezJs Site to Vercel Hosting.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Deployed Url:
+http://tezjs-deploy.surge.sh
 
-## Recommended IDE Setup
+## Preparing for deployment:
+Run the following command to create tezjs project:
+  - `npm create tez@latest`
+  - `cd [projectName]`
+  - `npm install` - for installing the required dependencies
+  - `npm run build` - for build the project
+  - `npm run dev` - for run the project
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Pre-requisites:
+  - Surge cli `npm install --global surge`
+  - Surge account
 
-## Type Support For `.vue` Imports in TS
+## Deploying your Tezjs project to Surge:
+1. Run the below command and provide the email and password for initiate
+```
+surge
+```
+2. Give the build folder path like `C:\\[folderPath]\dist`
+3. Give the domain name you want like `[your project name].surge.sh
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
-
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
-
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+## References:
+- [Surge Docs](https://surge.sh/)
+- [Getting Started with Surge](https://surge.sh/help/getting-started-with-surge)
+- [Deploy Static Side to Surge](https://www.howtogeek.com/devops/how-to-deploy-static-websites-for-free-with-surge-sh/)
