@@ -22,7 +22,7 @@ Run the following command to create tezjs project:
 surge
 ```
 2. Give the build folder path like `C:\\[folderPath]\dist`
-3. Give the domain name you want like `[your project name].surge.sh
+3. Give the domain name you want like `[your project name].surge.sh`
 
 ## References:
 - [Surge Docs](https://surge.sh/)
