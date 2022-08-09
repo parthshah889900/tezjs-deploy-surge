@@ -1,5 +1,5 @@
 # Deploy to Surge
-In this guide, you will learn how to deploy your TezJs Site to Vercel Hosting.
+In this guide, you will learn how to deploy your TezJs Site to Surge.
 
 ## Deployed Url:
 http://tezjs-deploy.surge.sh
