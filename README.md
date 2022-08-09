@@ -13,7 +13,7 @@ Run the following command to create tezjs project:
   - `npm run dev` - for run the project
 
 ## Pre-requisites:
-  - Surge cli `npm install --global surge`
+  - Surge cli install `npm install --global surge`
   - Surge account
 
 ## Deploying your Tezjs project to Surge:
